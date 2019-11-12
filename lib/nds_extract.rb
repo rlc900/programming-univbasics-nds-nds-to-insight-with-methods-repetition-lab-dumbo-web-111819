@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
  # binding.pry
-  source.map { |names| puts source }
+  source.map { |names| p source }
   # Write this implementation
 end
 
