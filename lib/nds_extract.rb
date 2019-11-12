@@ -25,9 +25,9 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
- # binding.pry
+ binding.pry
  
-  source.map { |names| p names.values.to_a }
+ # source.map { |names| p names.values }
   # Write this implementation
 end
 
