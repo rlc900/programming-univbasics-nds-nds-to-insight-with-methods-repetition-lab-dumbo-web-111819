@@ -32,7 +32,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  #binding.pry 
+  binding.pry 
   # Write this implementation
   #
   # Should use methods:
@@ -43,6 +43,11 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   total = 0 
+  i = 0 
+  while i < source.length do 
+    
+  end 
+  
   
 end
 
