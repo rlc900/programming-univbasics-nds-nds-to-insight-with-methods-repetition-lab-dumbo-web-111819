@@ -27,7 +27,7 @@ end
 
 def list_of_directors(source)
  
- source.map { |names| names.values[0] }
+# source.map { |names| names.values[0] }
  
   # Write this implementation
 end
@@ -46,7 +46,7 @@ def total_gross(source)
   total = 0 
   i = 0 
  # while i < source.length do 
-    +total += 
+    #total += 
   #end 
   
   
