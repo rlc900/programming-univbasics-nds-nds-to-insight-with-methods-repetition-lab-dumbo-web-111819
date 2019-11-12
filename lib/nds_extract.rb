@@ -25,13 +25,14 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
- #binding.pry
+ 
  source.map { |names| names.values[0] }
  
   # Write this implementation
 end
 
 def total_gross(source)
+  binding.pry 
   # Write this implementation
   #
   # Should use methods:
