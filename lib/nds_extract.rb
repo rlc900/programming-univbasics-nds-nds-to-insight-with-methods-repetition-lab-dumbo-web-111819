@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
  #binding.pry
- name_array = source.map { |v| v.values[0] }
+ source.map { |names| names.values[0] }
  
   # Write this implementation
 end
