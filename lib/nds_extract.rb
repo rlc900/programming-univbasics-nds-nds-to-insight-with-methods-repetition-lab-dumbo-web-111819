@@ -2,7 +2,6 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 require 'pry'
 def directors_totals(source)
-  binding.pry 
   result = {}
   director_index = 0
   while director_index < source.size do
@@ -27,7 +26,7 @@ end
 
 def list_of_directors(source)
  
-# source.map { |names| names.values[0] }
+ source.map { |names| names.values[0] }
  
   # Write this implementation
 end
@@ -45,9 +44,9 @@ def total_gross(source)
   # return the total
   total = 0 
   i = 0 
- # while i < source.length do 
-    #total += 
-  #end 
+  while i < source.length do 
+    total += 
+  end 
   
   
 end
