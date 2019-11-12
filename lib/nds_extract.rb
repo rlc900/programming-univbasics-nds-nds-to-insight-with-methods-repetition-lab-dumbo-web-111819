@@ -2,6 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 require 'pry'
 def directors_totals(source)
+  binding.pry 
   result = {}
   director_index = 0
   while director_index < source.size do
@@ -32,7 +33,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  binding.pry 
+  #binding.pry 
   # Write this implementation
   #
   # Should use methods:
