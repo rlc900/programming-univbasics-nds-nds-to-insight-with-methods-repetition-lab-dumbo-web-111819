@@ -26,8 +26,10 @@ end
 
 def list_of_directors(source)
   binding.pry
-  #i = 0 
- # while i < source
+  i = 0 
+  while i < source.length do 
+ 
+ end
   # Write this implementation
 end
 
