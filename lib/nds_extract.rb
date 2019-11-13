@@ -44,8 +44,10 @@ def total_gross(source)
   # return the total
   total = 0 
   i = 0 
-  while i < source.length do 
-    #total += directors_totals.values[i]
+  total_hash = directors_totals(source)
+  names_array = list_of_directors(source)
+  while i < names_array.length do 
+    total_hash[names_array[i]]
     i += 1 
   end 
   total
