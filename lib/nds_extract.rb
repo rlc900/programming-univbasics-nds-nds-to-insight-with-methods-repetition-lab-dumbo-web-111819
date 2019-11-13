@@ -47,6 +47,7 @@ def total_gross(source)
   total_hash = directors_totals(source)
   names_array = list_of_directors(source)
   while i < names_array.length do 
+    binding.pry
     total_hash[names_array[i]]
     i += 1 
   end 
